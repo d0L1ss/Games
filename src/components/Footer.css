@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+footer {
+    background-color: #18181B;
+    font-family: 'Manrope', sans-serif;
+    color: #ffff;
+    user-select: none;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-h1 {
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.footer-p {
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 22px;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.upFootBut {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    background-color:  #79109D;
+    padding: 13px 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 600px;
+    margin-top: 45px;
+    font-size: 16px;
+    transition: 500ms ease;
+}
+
+.upFootBut:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.foot-cross {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95px;
+    margin-right: 210px;
+    margin-left: 230px;
+}
+
+.glav-foot-h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.glav-footer-item {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7c7c7c;
+    transition: 100ms ease;
+}
+
+.glav-footer-item:hover {
+    color: #a742c9;
+}
+
+.prod-foot-h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.prod-footer-item {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7c7c7c;
+    transition: 100ms ease;
+}
+
+.prod-footer-item:hover {
+    color: #a742c9;
+}
+
+.games-foot-h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.games-footer-item {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7c7c7c;
+    transition: 100ms ease;
+}
+
+.games-footer-item:hover {
+    color: #a742c9;
+}
+
+.usComp-foot-h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.usComp-footer-item {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7c7c7c;
+    transition: 100ms ease;
+}
+
+.usComp-footer-item:hover {
+    color: #a742c9;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.endAll-foot {
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+}
+
+.end-footer-item {
+    margin-right: 36px;
+    font-size: 13px;
+    font-weight: 300;
+    transition: 100ms ease;
+}
+
+.end-footer-item:hover {
+    color: #a742c9;
+}
+
+.logo-foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-footer-logoo {
+    margin-bottom: -140px;
+    margin-left: 225px;
+}
+
+.prodAll {
+    margin-top: -30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 220px;
+    padding-bottom: 160px;
+}
+
+.end-footer-prod {
+    margin-right: 15px;
+}
+
+.tg-footer-item {
+    transition: 800ms ease;
+}
+
+.tiktok-footer-item {
+    transition: 800ms ease;
+}
+
+.tiktok-footer-item:hover {
+    transform: scale(1.2);
+    background-image: url(/public/img/hovTik.svg);
+}
+
+.inst-footer-item {
+    transition: 800ms ease;
+}
+
+.inst-footer-item:hover {
+    transform: scale(1.2);
+    background-image: url(/public/img/hovInst.svg);
+}
+
+.tg-footer-item:hover {
+    transform: scale(1.2);
+    background-image: url(/public/img/hovTg.svg);
+}

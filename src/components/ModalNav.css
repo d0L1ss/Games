@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+.modal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-cont {
+    margin-top: 50px;
+    border-radius: 24px;
+    background-image: url(/public/img/mod.png);
+    width: 467px;
+    height: 478px;
+    transform: scale(0.5);
+    transition: 0.2s all;
+}
+
+.modal-cont.active {
+    transform: scale(1);
+}
+
+.up {
+    margin-top: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    user-select: none;
+}
+
+.consent {
+    color: #ffffff95;
+    font-size: 12px;
+    text-align: center;
+}
+
+hr {
+    margin-top: 15px;
+    width: 300px;
+    margin-left: 80px;
+}
+
+.name {
+    margin-top: 25px;
+    margin-left: 90px;
+    font-size: 15px;
+    height: 50px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+}
+
+.name::placeholder {
+    text-align: center;
+}
+
+.nick {
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: 15px;
+    height: 50px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+}
+
+.nick::placeholder {
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: 15px;
+    height: 50px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+}
+
+.email::placeholder {
+    text-align: center;
+}
+
+.pass {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: 15px;
+    height: 50px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+}
+
+.pass::placeholder {
+    text-align: center;
+}
+
+.sumb {
+    margin-top: 10px;
+    margin-left: 130px;
+    border: none;
+    padding: 11px 17px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+    background-color:  #79109D;
+    color: #FFFFFF;
+}
+
+.sumb:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+input::placeholder {
+    padding: 10px 0;
+}
+
+.infni {
+    color: #ffffff4c;
+    font-size: 10px;
+    margin-top: 5px;
+    user-select: none;
+    text-align: center;
+}

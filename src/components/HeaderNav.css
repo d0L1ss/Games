@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.nav-logo {
+    margin-left: 220px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 85px;
+    height: 45px;
+}
+
+.nav {
+}
+
+.upNavBut {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    background-color:  #79109D;
+    padding: 11px 17px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: -250px;
+    user-select: none;
+}
+
+.upNavBut:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.inNavBut {
+    display: block;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    background-color:  #79109D;
+    padding: 11px 17px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: -40px;
+    user-select: none;
+}
+
+.inNavBut:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.header-nav {
+    background-color: #222228;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-item {
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff;
+    margin-right: 20px;
+    user-select: none;
+}
+
+.header-item:last-child {
+    margin-right: 0;
+}
+
+.header-item:hover {
+    color: #bd52e1;
+}

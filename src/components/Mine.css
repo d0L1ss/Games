@@ -1,0 +1,59 @@
+.modallll {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modallll.activeeee {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-contttt {
+    margin-top: 50px;
+    border-radius: 24px;
+    background-image: url(/public/img/minenewm.png);
+    width: 551px;
+    height: 257px;
+    transform: scale(0.5);
+    transition: 0.2s all;
+}
+
+.modal-contttt.activeeee {
+    transform: scale(1);
+}
+
+.oglav1 {
+    font-size: 20px;
+    margin-left: 236px;
+    margin-top: 30px;
+}
+
+.date1 {
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 236px;
+}
+
+.opis1 {
+    font-size: 12px;
+    margin-left: 236px;
+    margin-top: 5px;
+    width: 300px;
+}
+
+.opis3 {
+    font-size: 12px;
+    width: 300px;
+    margin-left: 236px;
+    margin-top: 8px;
+}

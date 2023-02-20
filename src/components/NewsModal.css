@@ -1,0 +1,82 @@
+.modallllll {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modallllll.activeeeeee {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-contttttt {
+    margin-top: 50px;
+    border-radius: 24px;
+    background-image: url(/public/img/ModalNews.png);
+    width: 1342px;
+    height: 699px;
+    transform: scale(0.5);
+    transition: 0.2s all;
+}
+
+.modal-contttttt.activeeeeee {
+    transform: scale(1);
+}
+
+.oglavnew {
+    font-size: 24px;
+    text-align: center;
+    color: #ffff;
+    margin-top: 60px;
+}
+
+.watchik {
+    margin-left: 110px;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.watchik:hover {
+    transform: scale(1.05);
+}
+
+.minek {
+    margin-left: 25px;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.minek:hover {
+    transform: scale(1.05);
+}
+
+.rustek {
+    margin-left: 410px;
+    margin-top: -70px;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.rustek:hover {
+    transform: scale(1.05);
+}
+
+.strelka {
+    margin-left: 1255px;
+    cursor: pointer;
+    transition: 500ms ease;
+    
+}
+
+.strelka:hover {
+    transform: scale(1.3);
+}

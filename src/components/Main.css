@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+main {
+    background-color: #18181B;
+    user-select: none;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-h1 {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    color: #ffff;
+    margin-top: 200px;
+    font-size: 60px;
+}
+
+.main-p {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    color: #ffff;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.games-left {
+    width: 270px;
+    height: 460px;
+    margin-top: 85px;
+}
+
+.games-right {
+    float: right;
+    width: 270px;
+    height: 460px;
+    margin-top: 85px;
+}
+
+.products-content {
+    font-family: 'Manrope', sans-serif;
+}
+
+.products-p {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+    color: #ffff;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.products-h1 {
+    text-align: center;
+    color: #ffff ;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 100px;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.products-p2 {
+    text-align: center;
+    color: #ffff;
+    font-size: 15px;
+    margin-top: 25px;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.launcher {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.pc-launch {
+    margin-top: 70px;
+    width: 490px;
+    height: 590px;
+    transition: transform 500ms ease;
+}
+
+.pc-launch:hover {
+    transform: scale(1.05);
+}
+
+
+.android-launch {
+    margin-top: 90px;
+    width: 490px;
+    height: 550px;
+    transition: transform 500ms ease;
+}
+
+.android-launch:hover {
+    transform: scale(1.05);
+}
+
+.serv {
+    margin-left: 210px;
+    margin-top: 20px;
+    transition: 500ms ease;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.serv:hover {
+    transform: scale(1.05);
+    box-shadow: #37377e 0px 0px 25px;
+}
+
+.popular {
+    margin-top: 20px;
+    margin-left: 210px;
+    transition: 500ms ease;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.popular:hover {
+    transform: scale(1.05);
+    box-shadow: #ffffff 0px 0px 15px;
+}
+
+.voice {
+    margin-top: 20px;
+    margin-left: 210px;
+    transition: 500ms ease;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.voice:hover {
+    transform: scale(1.05);
+    box-shadow: #3a3ad5 0px 0px 25px;
+}
+
+.info {
+    margin-top: 100px;
+    margin-left: 315px;
+    font-family: 'Manrope', sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-item {
+    width: 190px;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 40px 33px 39px 32px;
+    background: linear-gradient(180deg, #393942 0%, rgba(57, 57, 66, 0.35) 100%);
+    border-radius: 20px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+}
+
+.info-item:hover {
+    transform: scale(1.05);
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.info-item:last-child {
+    margin-right: 0px;
+}
+
+.news {
+    font-family: 'Manrope', sans-serif;
+    color: #ffff;
+}
+
+.news-h1 {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.news-cont {
+    display: flex;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    color: #ffff;
+    margin-top: 70px;
+}
+
+.watchdogs {
+    margin-right: 35px;
+    cursor: pointer;
+    transition: 500ms ease;
+    border-radius: 24px;
+}
+
+.watchdogs:hover {
+    transform: scale(1.05);
+    box-shadow: #3a3ad5 0px 0px 25px;
+}
+
+.first-text {
+    display: inline-block;
+    background-color: #232229;
+    margin-top: -5px;
+    padding: 25px 89px 39px 32px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.watch-p {
+    font-size: 16px;
+}
+
+.watch-h1 {
+    margin-top: 10px;
+    font-size: 21px;
+    width: 190px;
+}
+
+.watch-p2 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.minecraft {
+    margin-right: 35px;
+    cursor: pointer;
+    transition: 500ms ease;
+    border-radius: 24px;
+}
+
+.minecraft:hover {
+    transform: scale(1.05);
+    box-shadow: #1e7d01 0px 0px 25px;
+}
+
+.second-text {
+    display: inline-block;
+    background-color: #232229;
+    margin-top: -5px;
+    padding: 25px 89px 45px 32px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.mine-p {
+    font-size: 16px;
+}
+
+.mine-h1 {
+    margin-top: 10px;
+    font-size: 19px;
+    width: 190px;
+}
+
+.mine-p2 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.rust {
+    cursor: pointer;
+    transition: 500ms ease;
+    border-radius: 24px;
+}
+
+.rust:hover {
+    transform: scale(1.05);
+    box-shadow: #5e0000 0px 0px 25px;
+}
+
+.third-text {
+    display: inline-block;
+    background-color: #232229;
+    margin-top: -5px;
+    padding: 25px 10px 39px 32px;;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.rust-p {
+    font-size: 16px;
+}
+
+.rust-h1 {
+    margin-top: 10px;
+    font-size: 21px;
+    width: 270px;
+}
+
+.rust-p2 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.all-but {
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-news {
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    background-color:  #79109D;
+    padding: 13px 44px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 70px;
+    transition: 500ms ease;
+}
+
+.all-news:hover {
+    background-color: #ffff;
+    color: #000;
+}
+
+.soc-net {
+    margin-top: 200px;
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.soc-p {
+    font-size: 22px;
+    font-weight: 800;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.soc-h1 {
+    margin-top: 25px;
+    font-size: 60px;
+    font-weight: 800;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.soc-p2 {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.soc-cross {
+    margin-top: 70px;
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.inst-cross {
+    background-image: url(/public/img/gradient.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 490px;
+    height: 600px;
+    margin-right: 20px;
+    transition: 500ms ease;
+}
+
+.inst-cross:hover {
+    transform: scale(1.05);
+}
+
+.inst-logo {
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.inst-h1 {
+    margin-top: 15px;
+    margin-left: 35px;
+    font-weight: 800;
+    font-size: 38px;
+}
+
+.inst-pre {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.inst-to {
+    margin-top: 60px;
+    margin-left: 35px;
+    font-size: 30px;
+    transition: 500ms ease;
+    cursor: pointer;
+}
+
+.inst-to:hover {
+    color: #fd1b6e;
+}
+
+.tg-cross {
+    background-image: url(/public/img/tg-gra.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 490px;
+    height: 600px;
+    transition: 500ms ease;
+}
+
+.tg-cross:hover {
+    transform: scale(1.05);
+}
+
+.tg-logo {
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.tg-h1 {
+    margin-top: 15px;
+    margin-left: 35px;
+    font-weight: 800;
+    font-size: 38px;
+}
+
+.tg-to {
+    margin-top: 355px;
+    margin-left: 35px;
+    font-size: 30px;
+    transition: 500ms ease;
+}
+
+.tg-to:hover {
+    color: #3b9de9;
+}
+
+.about {
+    margin-top: 180px;
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.us-p {
+    font-weight: 800;
+    font-size: 22px;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.us-h1 {
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: #79109D 0px 0px 20px;
+}
+
+.us-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kubiki-right {
+    margin-left: -490px;
+    margin-top: 80px;
+    float: right;
+}
+
+.kubiki-left {
+    margin-right: -490px;
+    margin-top: 80px;
+}
+
+.us-text {
+    margin-top: 60px;
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+    background-image: url(/public/img/us-pre.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+}
+
+.us-h2 {
+    margin-top: 150px;
+    margin-left: 35px;
+}
+
+.us-p2 {
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 290px;
+}
+
+.us-h3 {
+    margin-top: 65px;
+    margin-left: 35px;
+    width: 165px;
+    transition: 300ms ease;
+}
+
+.us-h3:hover {
+    color: #a96bde;
+}
+
+.us-cont2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kubiki-game-R {
+    margin-top: -90px;
+    float: right;
+    margin-right: -1330px;
+    padding-bottom: 170px;
+}
+
+.kubiki-game-L {
+    margin-right: -490px;
+    margin-top: -90px;
+}
+
+.us-tt {
+    margin-top: -10px;
+    margin-right: 220px;
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+    background-image: url(/public/img/us2.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+}
+
+.us-hh {
+    margin-top: 70px;
+    margin-left: 35px;
+    width: 350px;
+}
+
+.us-pp {
+    margin-top: 25px;
+    margin-left: 35px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.us-hhh {
+    margin-top: 65px;
+    margin-left: 35px;
+    width: 300px;
+    transition: 300ms ease;
+}
+
+.us-hhh:hover {
+    color: #a96bde;
+}
